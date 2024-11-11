@@ -79,9 +79,7 @@ const EmployeeForm = ({ addEmployee }) => {
         value = { employee.startDate }
         onChange = { handleChange }
         required / >
-        <
-        button type = "submit" > Add Employee < /button> <
-        /form>
+         <button type = "submit" > Add Employee </button> </form >
     );
 };
 

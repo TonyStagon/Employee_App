@@ -2,8 +2,7 @@ import React from 'react';
 import EmployeeItem from './EmployeeItem';
 
 const EmployeeList = ({ employees, updateEmployee, deleteEmployee }) => {
-    return ( <
-        div > {
+    return ( <div > {
             employees.map(emp => ( <
                 EmployeeItem key = { emp.id }
                 employee = { emp }
@@ -11,8 +10,7 @@ const EmployeeList = ({ employees, updateEmployee, deleteEmployee }) => {
                 deleteEmployee = { deleteEmployee }
                 />
             ))
-        } <
-        /div>
+        } </div>
     );
 };
 
